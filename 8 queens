@@ -31,6 +31,6 @@ def N_queens(n):
 
     return False
 
-N_queens👎
+N_queens
 for i in board:
     print (i)
