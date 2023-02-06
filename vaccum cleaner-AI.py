@@ -59,7 +59,7 @@ def vacuum_world():
         
         if status_input == '1':
             print("Location B is Dirty.")
-            # suck the dirt  and mark it as clean
+            
             goal_state['B'] = '0'
             cost += 1  
             print("COST for CLEANING " + str(cost))
@@ -71,7 +71,7 @@ def vacuum_world():
                 print("Moving LEFT to the Location A. ")
                 cost += 1  
                 print("COST for moving LEFT" + str(cost))
-                # suck the dirt and mark it as clean
+                
                 goal_state['A'] = '0'
                 cost += 1  # cost for suck
                 print("COST for SUCK " + str(cost))
